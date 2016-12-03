@@ -1,7 +1,6 @@
-class HomepageController < ApplicationController
-def index
- @homepage = "BibliotecaHC"
-
-       end 
-  end 
+class HomepageController < AplicationController
+	def index
+		@homepage = "BibliotecaHC"
+	end 
+end 
 
